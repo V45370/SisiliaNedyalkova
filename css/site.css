@@ -17,13 +17,10 @@ header,
     }
 }
 
-.top-nav-collapse, .page-footer {
+.navbar {
     background-color: darkorange !important;
 }
 
-.navbar:not(.top-nav-collapse) {
-    background: transparent !important;
-}
 
 @media (max-width: 991px) {
     .navbar:not(.top-nav-collapse) {
