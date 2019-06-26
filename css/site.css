@@ -58,9 +58,14 @@ header,
     object-fit: cover;
 }
 
-#intro-section .intro-text-container {
+#intro-section .intro-text {
+    padding: 20px;
     background-color: rgba(0, 0, 0, .3);
 }
+
+    #intro-section .intro-text h3 {
+        margin: 0;
+    }
 
 .software-stack {
     display: grid;
