@@ -25,7 +25,7 @@ header,
     font-family: Bahnschrift;
 }
 
-#about img {
+#about img.rounded-circle {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -61,3 +61,17 @@ header,
 #intro-section .intro-text {
     background-color: rgba(0, 0, 0, .3);
 }
+
+.software-stack {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    justify-items: left;
+}
+
+    .software-stack .logo {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+    }
