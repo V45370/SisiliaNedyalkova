@@ -21,7 +21,7 @@ header,
     background-color: darkorange !important;
 }
 
-#intro-section h3 {
+#intro-section {
     font-family: Bahnschrift;
 }
 
@@ -60,7 +60,7 @@ header,
 
 #intro-section .intro-text {
     padding: 20px;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .2);
 }
 
     #intro-section .intro-text h3 {
