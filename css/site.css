@@ -85,8 +85,10 @@ header,
     object-fit: cover;
 }
 
+
 #intro-section .intro-text {
-    padding: 20px;
+    margin-left:25%;
+    margin-right:25%;
     background-color: rgba(0, 0, 0, .2);
 }
 
